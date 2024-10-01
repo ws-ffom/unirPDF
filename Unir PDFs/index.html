@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unir PDFs</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <form class="pdf-form">
+      <h1>Unir Vários PDFs</h1>
+
+      <label for="pdfs">Selecione os PDFs:</label>
+      <input type="file" id="pdfs" multiple accept="application/pdf" class="file-input">
+
+      <button type="button" id="mergeBtn" class="btn">Unir PDFs</button>
+    </form>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
